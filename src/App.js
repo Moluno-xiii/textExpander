@@ -48,10 +48,10 @@ export default function App() {
 function TextExpander({
   children,
   className,
-  expanded = false,
+  expanded = true,
   collapseButtonText = "show less",
   collapsedNumWords = 10,
-  buttonColor = 'pink',
+  buttonColor = 'pinkgit ',
 
   expandButtonText = "show more",
 }) {
