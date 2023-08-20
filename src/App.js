@@ -48,7 +48,7 @@ export default function App() {
 function TextExpander({
   children,
   className,
-  expanded = true,
+  expanded = false,
   collapseButtonText = "show less",
   collapsedNumWords = 10,
   buttonColor = 'pinkgit ',
